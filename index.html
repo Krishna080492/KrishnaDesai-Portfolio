@@ -1,147 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <title>Krishna - Personal Portfolio</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="" name="keywords">
-        <meta content="" name="description">
+<head>
+    <meta charset="utf-8">
+    <title>Krishna - Personal Portfolio</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
-        <!-- Google Web Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Edu+TAS+Beginner:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Edu+TAS+Beginner:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 
-        <!-- Icon Font Stylesheet -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
-        <!-- Libraries Stylesheet -->
-        <link rel="stylesheet" href="lib/animate/animate.min.css"/>
-        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <!-- Libraries Stylesheet -->
+    <link rel="stylesheet" href="lib/animate/animate.min.css" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
 
-        <!-- Customized Bootstrap Stylesheet -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-        <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
-    </head>
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
 
-    <body>
+<body>
 
-        <!-- Spinner Start -->
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar Start -->
+    <div class="container-fluid nav-section border-0">
+        <nav class="navbar navbar-light">
+            <div class="navbar-nav flex-column">
+                <a href="#home" class="nav-item nav-link active"><span class="fa fa-home"></span> Home</a>
+                <a href="#about" class="nav-item nav-link"><span class="far fa-address-card"></span> About</a>
+                <a href="#service" class="nav-item nav-link"><span class="fab fa-servicestack"></span> Service</a>
+                <a href="#projects" class="nav-item nav-link"><span class="fa fa-project"></span> Projects</a>
+                <a href="#contact" class="nav-item nav-link"><span class="fas fa-address-book"></span> Contact</a>
             </div>
-        </div>
-        <!-- Spinner End -->
+        </nav>
+    </div>
+    <!-- Navbar End -->
 
-        <!-- Navbar Start -->
-        <div class="container-fluid nav-section border-0">
-            <nav class="navbar navbar-light">
-                <div class="navbar-nav flex-column">
-                    <a href="#pigraHome" class="nav-item nav-link active"><span class="fa fa-home"></span> Home</a>
-                    <a href="#pigraAbout" class="nav-item nav-link"><span class="far fa-address-card"></span> About</a>
-                    <a href="#pigraService" class="nav-item nav-link"><span class="fab fa-servicestack"></span> Service</a>
-                    <a href="#pigraBlog" class="nav-item nav-link"><span class="fa fa-blog"></span> Blog</a>
-                    <a href="#pigraContact" class="nav-item nav-link"><span class="fas fa-address-book"></span> Contact</a>
-                </div>
-            </nav>
-        </div>
-        <!-- Navbar End -->
-
-        <!-- Header Start -->
-        <div class="container-fluid" id="pigraHome">
-            <div class="container">
-                <div class="row g-0">
-                    <div class="col-12 col-lg-3">
-                        <div class="header-content bg-dark h-100 pt-6 pe-6 pb-6">
-                            <a href="index.html" class="navbar-brand d-inline-flex pb-5 wow fadeInUp" data-wow-delay="0.1s">
-                                <h1 class="display-6 text-white mb-0">Krishna Desai</h1>
-                            </a>
-                            <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.3s">
-                                <p class="text-white sub-title">👋 Hello I'm Krishna</p>
-                                <h1 class="display-6 text-white mb-0">Full Stack Developer</h1>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-9">
-                        <div class="header-img d-flex h-100 pt-6 ps-6 pb-6">
-                            <div class="row g-5">
-                                <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.1s">
-                                    <div class="image-wrapper">
-                                        <img src="img/main.jpeg" class="img-fluid profile-image" alt="Profile Image">
-                                    </div>
-                                </div>
-                                <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
-                                    <h1 class="display-6 mb-4">Fresher Full Stack Developer</h1>
-                                    <p class="mb-4">Passionate about building interactive web applications and user-friendly designs with modern technologies.</p>
-                                    <div class="d-flex align-items-center mb-2">
-                                        <i class="fas fa-map-marker-alt text-primary me-3"></i>
-                                        <p class="text-dark mb-0">Gujarat Gas Circle, Adajan-395009, Surat</p>
-                                    </div>
-                                    <div class="d-flex align-items-center mb-2">
-                                        <i class="fas fa-envelope text-primary me-3"></i>
-                                        <p class="text-dark mb-0">krishna.desai4@gmail.com</p>
-                                    </div>
-                                    <div class="d-flex align-items-center mb-2">
-                                        <i class="fa fa-phone-alt text-primary me-3"></i>
-                                        <p class="text-dark mb-0">+9196628 94444</p>
-                                    </div>
-                                </div>
-                            </div>
+    <!-- Header Start -->
+    <div class="container-fluid" id="home">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-12 col-lg-3">
+                    <div class="header-content bg-dark h-100 pt-6 pe-6 pb-6">
+                        <a href="index.html" class="navbar-brand d-inline-flex pb-5 wow fadeInUp" data-wow-delay="0.1s">
+                            <h1 class="display-6 text-white mb-0">Krishna Desai</h1>
+                        </a>
+                        <div class="text-start d-flex flex-column justify-content-center wow fadeInUp"
+                            data-wow-delay="0.3s">
+                            <p class="text-white sub-title">👋 Hello I'm Krishna</p>
+                            <h1 class="display-6 text-white mb-0">Full Stack Developer</h1>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <!-- Header End -->
-
-        <!-- About Start -->
-        <div class="container-fluid" id="pigraAbout">
-            <div class="container">
-                <div class="row g-0">
-                    <div class="col-12 col-lg-3">
-                        <div class="about-header bg-dark h-100 pt-6 pe-6 pb-6">
-                            <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
-                                <p class="text-white sub-title">About Me</p>
-                                <h1 class="display-6 text-white mb-0">Full Stack Developer from Surat, India</h1>
+                <div class="col-12 col-lg-9">
+                    <div class="header-img d-flex h-100 pt-6 ps-6 pb-6">
+                        <div class="row g-5">
+                            <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="image-wrapper">
+                                    <img src="img/main.jpeg" class="img-fluid profile-image" alt="Profile Image">
+                                </div>
+                            </div>
+                            <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
+                                <h1 class="display-6 mb-4">Fresher Full Stack Developer</h1>
+                                <p class="mb-4">Passionate about building interactive web applications and user-friendly
+                                    designs with modern technologies.</p>
+                                <div class="d-flex align-items-center mb-2">
+                                    <i class="fas fa-map-marker-alt text-primary me-3"></i>
+                                    <p class="text-dark mb-0">Gujarat Gas Circle, Adajan-395009, Surat</p>
+                                </div>
+                                <div class="d-flex align-items-center mb-2">
+                                    <i class="fas fa-envelope text-primary me-3"></i>
+                                    <p class="text-dark mb-0">krishna.desai4@gmail.com</p>
+                                </div>
+                                <div class="d-flex align-items-center mb-2">
+                                    <i class="fa fa-phone-alt text-primary me-3"></i>
+                                    <p class="text-dark mb-0">+9196628 94444</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-9">
-                        <div class="about-content h-100 pt-6 ps-6 pb-6">
-                            <div class="row g-5">
-                                <div class="col-xl-5">
-                                    <div class="about-img bg-light p-4 wow fadeInUp" data-wow-delay="0.1s">
-                                        <img src="img/about.jpg" class="img-fluid w-100" alt="Image">
-                                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+    <!-- About Start -->
+    <div class="container-fluid" id="about">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-12 col-lg-3">
+                    <div class="about-header bg-dark h-100 pt-6 pe-6 pb-6">
+                        <div class="text-start d-flex flex-column justify-content-center wow fadeInUp"
+                            data-wow-delay="0.1s">
+                            <p class="text-white sub-title">About Me</p>
+                            <h1 class="display-6 text-white mb-0">Full Stack Developer from Surat, India</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-9">
+                    <div class="about-content h-100 pt-6 ps-6 pb-6">
+                        <div class="row g-5">
+                            <div class="col-xl-5">
+                                <div class="about-img bg-light p-4 wow fadeInUp" data-wow-delay="0.1s">
+                                    <img src="img/about.jpg" class="img-fluid w-100" alt="Image">
                                 </div>
-                                <div class="col-xl-7 wow fadeInUp" data-wow-delay="0.3s">
-                                    <h4 class="mb-4">Hello, I'm Krishna, Based in India</h4>
-                                    <p>
-                                        Hi there! I am a <strong>Fresher Full Stack Developer</strong> with a passion for learning and building interactive, user-friendly web applications. Equipped with knowledge in <span class="text-primary">HTML</span>, <span class="text-primary">CSS</span>, <span class="text-primary">Bootstrap</span>, <span class="text-primary">JavaScript</span>, and modern frameworks like <span class="text-primary">React.js</span> and <span class="text-primary">Node.js</span>, I am eager to start my professional journey in web development.
+                            </div>
+                            <div class="col-xl-7 wow fadeInUp" data-wow-delay="0.3s">
+                                <h4 class="mb-4">Hello, I'm Krishna, Based in India</h4>
+                                <p style="text-align: justify;">
+                                    Hi there! I am a <strong>Full Stack Developer</strong> with a passion for learning
+                                    and building interactive, user-friendly web applications. Equipped with knowledge in
+                                    <span class="text-primary">HTML</span>, <span class="text-primary">CSS</span>, <span
+                                        class="text-primary">Bootstrap</span>, <span
+                                        class="text-primary">JavaScript</span>, and modern frameworks like <span
+                                        class="text-primary">React.js</span> and <span
+                                        class="text-primary">Node.js</span>, I am eager to start my professional journey
+                                    in web development.
+                                </p>
+                                <p>
+                                    I am committed to continuous improvement and excited to collaborate with teams to
+                                    create impactful digital experiences. My goal is to contribute to meaningful
+                                    projects while growing my skills in both front-end and back-end development.
+                                </p>
+                                <a href="resume/Krishna's Resume.pdf" class="btn btn-primary py-2 px-4"> <i
+                                        class="fas fa-download me-2"></i>Download My CV</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Education Start -->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-lg-3">
+                    <div class="education-header bg-dark h-100 pt-6 pe-6 pb-6">
+                        <div class="text-start d-flex flex-column justify-content-center wow fadeInUp"
+                            data-wow-delay="0.1s">
+                            <p class="text-white sub-title">Education</p>
+                            <h1 class="display-6 text-white mb-0">My education qualification</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="education-content h-100 pt-6 ps-6 pb-6">
+                        <div class="row g-4">
+                            <div class="col-12">
+                                <div class="education-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.5s">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <p class="fs-5 mb-0 me-4">Red & White Multimedia Education</p>
+                                        <div>
+                                            <span class="fa fa-calendar me-1"></span> 2023 - 2024
+                                        </div>
+                                    </div>
+                                    <h4 class="mb-3">Full Stack Development</h4>
+                                    <p class="mb-0">I have learned HTML, CSS, Bootstrap, jQuery, JavaScript, C, Data
+                                        Structures and Algorithms (DSA) with C++, React.js, and Node.js.
                                     </p>
-                                    <p>
-                                        I am committed to continuous improvement and excited to collaborate with teams to create impactful digital experiences. My goal is to contribute to meaningful projects while growing my skills in both front-end and back-end development.
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="education-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.1s">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <p class="fs-5 mb-0 me-4">Gujarat Technichal University (GTU)</p>
+                                        <div>
+                                            <span class="fa fa-calendar me-1"></span> 2013 - 2016
+                                        </div>
+                                    </div>
+                                    <h4 class="mb-3">Bachelor in Computer Science</h4>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="education-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.3s">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <p class="fs-5 mb-0 me-4">Gujarat Technichal University (GTU)</p>
+                                        <div>
+                                            <span class="fa fa-calendar me-1"></span> 2010 - 2013
+                                        </div>
+                                    </div>
+                                    <h4 class="mb-3">Diploma in Computer Engineering</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Education End -->
+
+    <!-- Experience Start -->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-lg-3">
+                    <div class="experience-header bg-dark h-100 pt-6 pe-6 pb-6">
+                        <div class="text-start d-flex flex-column justify-content-center wow fadeInUp"
+                            data-wow-delay="0.1s">
+                            <p class="text-white sub-title">Experience</p>
+                            <h1 class="display-6 text-white mb-0">My real work experience</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="experience-content h-100 pt-6 ps-6 pb-6">
+                        <div class="row g-4">
+                            <div class="col-12">
+                                <div class="experience-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.1s">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <p class="fs-5 mb-0 me-4">Brain-Point Computer Education</p>
+                                        <div>
+                                            <span class="fa fa-calendar me-1"></span> 2017 - 2021
+                                        </div>
+                                    </div>
+                                    <h4 class="mb-3">Computer Instructor and Administrator </h4>
+                                    <p class="mb-0">• Conducting classes, labs and other computer related activities for
+                                        students of that institute. <br>
+                                        • Working as an admin and prepare practical assignment for that institute. <br>
+                                        • Conducting training for corporate people. <br>
+                                        • Taking an Initiative towards that institute and Developed website for it.
+                                        (www.brainpointcomputer.com).
                                     </p>
-                                    <div class="row g-4 mb-4">
-                                        <div class="col-6">
-                                            <p><strong class="fw-bold text-dark">Phone :</strong> +91 96628 94444</p>
-                                            <!-- <p><strong class="fw-bold text-dark">skype :</strong> </p> -->
-                                            <p class="mb-0"><strong class="fw-bold text-dark">Address :</strong> 20, Green Enclave Row House, Gujarat Gas Circle, Adajan-395009, Surat, India</p>
-                                        </div>
-                                        <div class="col-6">
-                                            <p><strong class="fw-bold text-dark">Nationality :</strong> Gujarat, India</p>
-                                            <p><strong class="fw-bold text-dark">Email :</strong> krishna.desai4@gmail.com</p>
-                                            <p class="mb-0"><strong class="fw-bold text-dark">Freelancer :</strong> Available</p>
-                                        </div>
-                                    </div>
-                                    <a href="resume/Krishna's Resume.pdf" class="btn btn-primary py-2 px-4"> <i class="fas fa-download me-2"></i>Download My CV</a>
                                 </div>
                             </div>
                         </div>
@@ -149,190 +254,107 @@
                 </div>
             </div>
         </div>
-        <!-- About End -->
+    </div>
+    <!-- Exparience End -->
 
-        <!-- Education Start -->
-        <div class="container-fluid">
-            <div class="container">
-                <div class="row g-0">
-                    <div class="col-lg-3">
-                        <div class="education-header bg-dark h-100 pt-6 pe-6 pb-6">
-                            <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
-                                <p class="text-white sub-title">Education</p>
-                                <h1 class="display-6 text-white mb-0">My education qualification</h1>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-9">
-                        <div class="education-content h-100 pt-6 ps-6 pb-6">
-                            <div class="row g-4">
-                                <div class="col-12">
-                                    <div class="education-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.5s">
-                                        <div class="d-flex align-items-center mb-3">
-                                            <p class="fs-5 mb-0 me-4">Red & White Multimedia Education</p>
-                                            <div>
-                                                <span class="fa fa-calendar me-1"></span> 2023 - 2024
-                                            </div>
-                                        </div>
-                                        <h4 class="mb-3">Full Stack Development</h4>
-                                        <p class="mb-0">I have learned HTML, CSS, Bootstrap, jQuery, JavaScript, C, Data Structures and Algorithms (DSA) with C++, React.js, and Node.js.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="education-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.1s">
-                                        <div class="d-flex align-items-center mb-3">
-                                            <p class="fs-5 mb-0 me-4">Gujarat Technichal University (GTU)</p>
-                                            <div>
-                                                <span class="fa fa-calendar me-1"></span> 2013 - 2016
-                                            </div>
-                                        </div>
-                                        <h4 class="mb-3">Bachelor in Computer Science</h4>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="education-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.3s">
-                                        <div class="d-flex align-items-center mb-3">
-                                            <p class="fs-5 mb-0 me-4">Gujarat Technichal University (GTU)</p>
-                                            <div>
-                                                <span class="fa fa-calendar me-1"></span> 2010 - 2013
-                                            </div>
-                                        </div>
-                                        <h4 class="mb-3">Diploma in Computer Engineering</h4>
-                                    </div>
-                                </div>
-                            </div>
+    <!-- Skills Start -->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-lg-3">
+                    <div class="skills-header h-100 bg-dark pt-6 pe-6 pb-6">
+                        <div class="text-start d-flex flex-column justify-content-center wow fadeInUp"
+                            data-wow-delay="0.1s">
+                            <p class="text-white sub-title">Skills</p>
+                            <h1 class="display-6 text-white mb-0">My expertise skills</h1>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <!-- Education End -->
-
-        <!-- Experience Start -->
-        <div class="container-fluid">
-            <div class="container">
-                <div class="row g-0">
-                    <div class="col-lg-3">
-                        <div class="experience-header bg-dark h-100 pt-6 pe-6 pb-6">
-                            <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
-                                <p class="text-white sub-title">Experience</p>
-                                <h1 class="display-6 text-white mb-0">My real work experience</h1>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-9">
-                        <div class="experience-content h-100 pt-6 ps-6 pb-6">
-                            <div class="row g-4">
-                                <div class="col-12">
-                                    <div class="experience-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.1s">
-                                        <div class="d-flex align-items-center mb-3">
-                                            <p class="fs-5 mb-0 me-4">Brain-Point Computer Education</p>
-                                            <div>
-                                                <span class="fa fa-calendar me-1"></span> 2017 - 2021
-                                            </div>
-                                        </div>
-                                        <h4 class="mb-3">Computer Instructor and Administrator </h4>
-                                        <p class="mb-0">• Conducting classes, labs and other computer related activities for students of that institute. <br>
-                                            • Working as an admin and prepare practical assignment for that institute. <br> 
-                                            • Conducting training for corporate people. <br>
-                                            • Taking an Initiative towards that institute and Developed website for it. 
-                                            (www.brainpointcomputer.com).
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Exparience End -->
-
-        <!-- Skills Start -->
-        <div class="container-fluid">
-            <div class="container">
-                <div class="row g-0">
-                    <div class="col-lg-3">
-                        <div class="skills-header h-100 bg-dark pt-6 pe-6 pb-6">
-                            <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
-                                <p class="text-white sub-title">Skills</p>
-                                <h1 class="display-6 text-white mb-0">My expertise skills</h1>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-9">
-                        <div class="skills-content h-100 pt-6 ps-6 pb-6">
-                            <div class="row g-4">
-                                <div class="col-6 col-md-4 col-lg-4 col-xl-3">
-                                    <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.1s">
-                                        <div class="text-primary text-center mb-3"><span class="fab fa-brands fa-html5" style="font-size: 50px; font-weight: 400;"></span></div>
-                                        <div class="counter-counting d-flex justify-content-center">
+                <div class="col-lg-9">
+                    <div class="skills-content h-100 pt-6 ps-6 pb-6">
+                        <div class="row g-4">
+                            <div class="col-6 col-md-4 col-lg-4 col-xl-3">
+                                <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp"
+                                    data-wow-delay="0.1s">
+                                    <div class="text-primary text-center mb-3"><span class="fab fa-brands fa-html5"
+                                            style="font-size: 50px; font-weight: 400;"></span></div>
+                                    <!-- <div class="counter-counting d-flex justify-content-center">
                                             <h4 class="display-6" data-toggle="counter-up">98</h4>
                                             <h4 class="display-6">%</h4>
-                                        </div>
-                                        <p class="mb-0">HTML</p>
-                                    </div>
+                                        </div> -->
+                                    <p class="mb-0">HTML</p>
                                 </div>
-                                <div class="col-6 col-md-4 col-lg-4 col-xl-3">
-                                    <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.3s">
-                                        <div class="text-primary text-center mb-3"><span class="fab fa-brands fa-css3-alt" style="font-size: 50px; font-weight: 400;"></span></div>
-                                        <div class="counter-counting d-flex justify-content-center">
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-4 col-xl-3">
+                                <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp"
+                                    data-wow-delay="0.3s">
+                                    <div class="text-primary text-center mb-3"><span class="fab fa-brands fa-css3-alt"
+                                            style="font-size: 50px; font-weight: 400;"></span></div>
+                                    <!-- <div class="counter-counting d-flex justify-content-center">
                                             <h4 class="display-6" data-toggle="counter-up">95</h4>
                                             <h4 class="display-6">%</h4>
-                                        </div>
-                                        <p class="mb-0">CSS</p>
-                                    </div>
+                                        </div> -->
+                                    <p class="mb-0">CSS</p>
                                 </div>
-                                <div class="col-6 col-md-4 col-lg-4 col-xl-3">
-                                    <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.5s">
-                                        <div class="text-primary text-center mb-3"><span class="fab fa-brands fa-bootstrap" style="font-size: 50px; font-weight: 400;"></span></div>
-                                        <div class="counter-counting d-flex justify-content-center">
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-4 col-xl-3">
+                                <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp"
+                                    data-wow-delay="0.5s">
+                                    <div class="text-primary text-center mb-3"><span class="fab fa-brands fa-bootstrap"
+                                            style="font-size: 50px; font-weight: 400;"></span></div>
+                                    <!-- <div class="counter-counting d-flex justify-content-center">
                                             <h4 class="display-6" data-toggle="counter-up">87</h4>
                                             <h4 class="display-6">%</h4>
-                                        </div>
-                                        <p class="mb-0">Bootstrap</p>
-                                    </div>
+                                        </div> -->
+                                    <p class="mb-0">Bootstrap</p>
                                 </div>
-                                <div class="col-6 col-md-4 col-lg-4 col-xl-3">
-                                    <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.7s">
-                                        <div class="text-primary text-center mb-3"><span class="fab fa-brands fa-js" style="font-size: 50px; font-weight: 400;"></span></div>
-                                        <div class="counter-counting d-flex justify-content-center">
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-4 col-xl-3">
+                                <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp"
+                                    data-wow-delay="0.7s">
+                                    <div class="text-primary text-center mb-3"><span class="fab fa-brands fa-js"
+                                            style="font-size: 50px; font-weight: 400;"></span></div>
+                                    <!-- <div class="counter-counting d-flex justify-content-center">
                                             <h4 class="display-6" data-toggle="counter-up">75</h4>
                                             <h4 class="display-6">%</h4>
-                                        </div>
-                                        <p class="mb-0">Javascript</p>
-                                    </div>
+                                        </div> -->
+                                    <p class="mb-0">Javascript</p>
                                 </div>
-                                <div class="col-6 col-md-4 col-lg-4 col-xl-3">
-                                    <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.1s">
-                                        <div class="text-primary text-center mb-3"><span class="fab fa-brands fa-react" style="font-size: 50px; font-weight: 400;"></span></div>
-                                        <div class="counter-counting d-flex justify-content-center">
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-4 col-xl-3">
+                                <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp"
+                                    data-wow-delay="0.1s">
+                                    <div class="text-primary text-center mb-3"><span class="fab fa-brands fa-react"
+                                            style="font-size: 50px; font-weight: 400;"></span></div>
+                                    <!-- <div class="counter-counting d-flex justify-content-center">
                                             <h4 class="display-6" data-toggle="counter-up">70</h4>
                                             <h4 class="display-6">%</h4>
-                                        </div>
-                                        <p class="mb-0">ReactJs</p>
-                                    </div>
+                                        </div> -->
+                                    <p class="mb-0">ReactJs</p>
                                 </div>
-                                <div class="col-6 col-md-4 col-lg-4 col-xl-3">
-                                    <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.3s">
-                                        <div class="text-primary text-center mb-3"><span class="fab fa-brands fa-node" style="font-size: 50px; font-weight: 400;"></span></div>
-                                        <div class="counter-counting d-flex justify-content-center">
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-4 col-xl-3">
+                                <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp"
+                                    data-wow-delay="0.3s">
+                                    <div class="text-primary text-center mb-3"><span class="fab fa-brands fa-node"
+                                            style="font-size: 50px; font-weight: 400;"></span></div>
+                                    <!-- <div class="counter-counting d-flex justify-content-center">
                                             <h4 class="display-6" data-toggle="counter-up">75</h4>
                                             <h4 class="display-6">%</h4>
-                                        </div>
-                                        <p class="mb-0">NodeJs</p>
-                                    </div>
+                                        </div> -->
+                                    <p class="mb-0">NodeJs</p>
                                 </div>
-                                <div class="col-6 col-md-4 col-lg-4 col-xl-3">
-                                    <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.3s">
-                                        <div class="text-primary text-center mb-3"><span class="fab fa-brands fa-wix" style="font-size: 50px; font-weight: 400;"></span></div>
-                                        <div class="counter-counting d-flex justify-content-center">
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-4 col-xl-3">
+                                <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp"
+                                    data-wow-delay="0.3s">
+                                    <div class="text-primary text-center mb-3"><span class="fab fa-brands fa-wix"
+                                            style="font-size: 50px; font-weight: 400;"></span></div>
+                                    <!-- <div class="counter-counting d-flex justify-content-center">
                                             <h4 class="display-6" data-toggle="counter-up">90</h4>
                                             <h4 class="display-6">%</h4>
-                                        </div>
-                                        <p class="mb-0">Wix & Wix Studio</p>
-                                    </div>
+                                        </div> -->
+                                    <p class="mb-0">Wix & Wix Studio</p>
                                 </div>
                             </div>
                         </div>
@@ -340,96 +362,60 @@
                 </div>
             </div>
         </div>
-        <!-- Skills End -->
+    </div>
+    <!-- Skills End -->
 
-        <!-- Service Start -->
-        <div class="container-fluid" id="pigraService">
-            <div class="container">
-                <div class="row g-0">
-                    <div class="col-lg-3">
-                        <div class="service-header h-100 bg-dark pt-6 pe-6 pb-6">
-                            <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
-                                <p class="text-white sub-title">My Services</p>
-                                <h1 class="display-6 text-white mb-0">What I do for you</h1>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-9">
-                        <div class="service-content h-100 pt-6 ps-6 pb-6">
-                            <div class="row g-4">
-                                <div class="col-12">
-                                    <div class="service-item p-4 wow fadeInUp" data-wow-delay="0.1s">
-                                        <div class="row g-4 align-items-center">
-                                            <div class="col-xl-2">
-                                                <i class="fas fa-bezier-curve fa-3x"></i>
-                                            </div>
-                                            <div class="col-xl-3">
-                                                <a href="#" class="h4 mb-0">Creative Design</a>
-                                            </div>
-                                            <div class="col-xl-7">
-                                                <p><i class="fa fa-check me-2"></i> Custom UI/UX design</p>
-                                                <p><i class="fa fa-check me-2"></i> SEO-friendly and responsive designs</p>
-                                                <p class="mb-0"><i class="fa fa-check me-2"></i> Integration with modern frameworks like ReactJS, NodeJS, and Bootstrap</p>
-                                                <p class="mb-0"><i class="fa fa-check me-2"></i> E-commerce functionality and CMS-based websites (e.g., Wix)</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="service-item p-4 wow fadeInUp" data-wow-delay="0.3s">
-                                        <div class="row g-4 align-items-center">
-                                            <div class="col-xl-2">
-                                                <i class="fas fa-laptop-code fa-3x"></i>
-                                            </div>
-                                            <div class="col-xl-3">
-                                                <a href="#" class="h4 mb-0"> Website Maintenance & Support</a>
-                                            </div>
-                                            <div class="col-xl-7">
-                                                <p><i class="fa fa-check me-2"></i>Bug fixing and performance enhancement</p>
-                                                <p><i class="fa fa-check me-2"></i>Ongoing technical support</p>
-                                                <p class="mb-0"><i class="fa fa-check me-2"></i>Website optimization for speed and SEO</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+    <!-- Service Start -->
+    <div class="container-fluid" id="service">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-lg-3">
+                    <div class="service-header h-100 bg-dark pt-6 pe-6 pb-6">
+                        <div class="text-start d-flex flex-column justify-content-center wow fadeInUp"
+                            data-wow-delay="0.1s">
+                            <p class="text-white sub-title">My Services</p>
+                            <h1 class="display-6 text-white mb-0">What I do for you</h1>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <!-- Service End -->
-
-        <!-- Portfolio Start -->
-        <div class="container-fluid">
-            <div class="container">
-                <div class="row g-0">
-                    <div class="col-lg-3">
-                        <div class="portfolio-header h-100 bg-dark pt-6 pe-6 pb-6">
-                            <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
-                                <p class="text-white sub-title">Portfolio</p>
-                                <h1 class="display-6 text-white mb-0">My Recent Works</h1>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-9">
-                        <div class="portfolio-content h-100 pt-6 ps-6 pb-6">
-                            <div class="portfolio-item py-5 border-bottom wow fadeInUp" data-wow-delay="0.1s">
-                                <div class="row g-4 align-items-center">
-                                    <div class="col-xl-6">
-                                        <h4 class="text-body">Website Design & Web Development</h4>
-                                        <h3 class="display-6 mb-0">Website Design for Brain-Point Computer Education</h3>
-                                    </div>
-                                    <div class="col-9 col-xl-4">
-                                        <div class="portfolio-img">
-                                            <div class="portfolio-img-inner">
-                                                <img src="img/portfoilio-1.png" class="img-fluid" alt="Image">
-                                            </div>
+                <div class="col-lg-9">
+                    <div class="service-content h-100 pt-6 ps-6 pb-6">
+                        <div class="row g-4">
+                            <div class="col-12">
+                                <div class="service-item p-4 wow fadeInUp" data-wow-delay="0.1s">
+                                    <div class="row g-4 align-items-center">
+                                        <div class="col-xl-2">
+                                            <i class="fas fa-bezier-curve fa-3x"></i>
+                                        </div>
+                                        <div class="col-xl-3">
+                                            <a href="#" class="h4 mb-0">Creative Design</a>
+                                        </div>
+                                        <div class="col-xl-7">
+                                            <p><i class="fa fa-check me-2"></i> Custom UI/UX design</p>
+                                            <p><i class="fa fa-check me-2"></i> SEO-friendly and responsive designs</p>
+                                            <p class="mb-0"><i class="fa fa-check me-2"></i> Integration with modern
+                                                frameworks like ReactJS, NodeJS, and Bootstrap</p>
+                                            <p class="mb-0"><i class="fa fa-check me-2"></i> E-commerce functionality
+                                                and CMS-based websites (e.g., Wix)</p>
                                         </div>
                                     </div>
-                                    <div class="col-3 col-xl-2">
-                                        <div class="view-img">
-                                            <a href="https://www.brainpointcomputer.com/" class="btn btn-primary btn-lg-square"  data-lightbox="Portfolio-1"><i class="fas fa-plus"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="service-item p-4 wow fadeInUp" data-wow-delay="0.3s">
+                                    <div class="row g-4 align-items-center">
+                                        <div class="col-xl-2">
+                                            <i class="fas fa-laptop-code fa-3x"></i>
+                                        </div>
+                                        <div class="col-xl-3">
+                                            <a href="#" class="h4 mb-0"> Website Maintenance & Support</a>
+                                        </div>
+                                        <div class="col-xl-7">
+                                            <p><i class="fa fa-check me-2"></i>Bug fixing and performance enhancement
+                                            </p>
+                                            <p><i class="fa fa-check me-2"></i>Ongoing technical support</p>
+                                            <p class="mb-0"><i class="fa fa-check me-2"></i>Website optimization for
+                                                speed and SEO</p>
                                         </div>
                                     </div>
                                 </div>
@@ -439,119 +425,42 @@
                 </div>
             </div>
         </div>
-        <!-- Portfolio End -->
+    </div>
+    <!-- Service End -->
 
-        <!-- Project Start -->
-        <div class="container-fluid" id="pigraBlog">
-            <div class="container">
-                <div class="row g-0">
-                    <div class="col-lg-3">
-                        <div class="blog-header h-100 bg-dark pt-6 pe-6 pb-6">
-                            <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
-                                <p class="text-white sub-title">Projects</p>
-                                <h1 class="display-6 text-white mb-0">Recent Projects</h1>
-                            </div>
+    <!-- Portfolio Start -->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-lg-3">
+                    <div class="portfolio-header h-100 bg-dark pt-6 pe-6 pb-6">
+                        <div class="text-start d-flex flex-column justify-content-center wow fadeInUp"
+                            data-wow-delay="0.1s">
+                            <p class="text-white sub-title">Portfolio</p>
+                            <h1 class="display-6 text-white mb-0">My Recent Works</h1>
                         </div>
                     </div>
-                    <div class="col-lg-9">
-                        <div class="blog-content h-100 pt-6 ps-6 pb-6">
-                            <div class="row g-4">
+                </div>
+                <div class="col-lg-9">
+                    <div class="portfolio-content h-100 pt-6 ps-6 pb-6">
+                        <div class="portfolio-item py-5 border-bottom wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="row g-4 align-items-center">
                                 <div class="col-xl-6">
-                                    <div class="blog-item wow fadeInUp" data-wow-delay="0.1s">
-                                        <div class="row g-4">
-                                            <div class="col-4">
-                                                <div class="blog-item-img bg-dark h-100">
-                                                    <a href="#">
-                                                        <img src="img/blog-1.jpg" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="Image">
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="col-8">
-                                                <div class="h-100">
-                                                    <p class="text-body mb-3"><i class="fa fa-calendar-alt me-2"></i> November 12, 2024</p>
-                                                    <a href="#" class="d-inline-block h4 mb-4">Secrets of the Mobile Application</a>
-                                                    <div class="py-2 px-3 bg-light d-flex justify-content-between">
-                                                        <p class="mb-0 text-body">By <a href="#" class="h6">Bernard</a></p>
-                                                        <p class="mb-0 text-body">In <a href="#" class="h6">Design</a></p>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                    <h4 class="text-body">Website Design & Web Development</h4>
+                                    <h3 class="display-6 mb-0">Website Design for Brain-Point Computer Education</h3>
+                                </div>
+                                <div class="col-9 col-xl-4">
+                                    <div class="portfolio-img">
+                                        <div class="portfolio-img-inner">
+                                            <img src="img/portfoilio-1.png" class="img-fluid" alt="Image">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xl-6">
-                                    <div class="blog-item wow fadeInUp" data-wow-delay="0.3s">
-                                        <div class="row g-4">
-                                            <div class="col-4">
-                                                <div class="blog-item-img bg-dark h-100">
-                                                    <a href="#">
-                                                        <img src="img/blog-2.jpg" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="Image">
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="col-8">
-                                                <div class="h-100">
-                                                    <p class="text-body mb-3"><i class="fa fa-calendar-alt me-2"></i> November 18, 2024</p>
-                                                    <a href="#" class="d-inline-block h4 mb-4">How to Create Quality Figma Design</a>
-                                                    <div class="py-2 px-3 bg-light d-flex justify-content-between">
-                                                        <p class="mb-0 text-body">By <a href="#" class="h6">Walker</a></p>
-                                                        <p class="mb-0 text-body">In <a href="#" class="h6">Media</a></p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-6">
-                                    <div class="blog-item wow fadeInUp" data-wow-delay="0.5s">
-                                        <div class="row g-4">
-                                            <div class="col-4">
-                                                <div class="blog-item-img bg-dark h-100">
-                                                    <a href="#">
-                                                        <img src="img/blog-3.jpg" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="Image">
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="col-8">
-                                                <div class="h-100">
-                                                    <p class="text-body mb-3"><i class="fa fa-calendar-alt me-2"></i> November 23, 2025</p>
-                                                    <a href="#" class="d-inline-block h4 mb-4">Tutorials for Learning Development</a>
-                                                    <div class="py-2 px-3 bg-light d-flex justify-content-between">
-                                                        <p class="mb-0 text-body">By <a href="#" class="h6">Jacob</a></p>
-                                                        <p class="mb-0 text-body">In <a href="#" class="h6">Lifestyle</a></p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-6">
-                                    <div class="blog-item wow fadeInUp" data-wow-delay="0.7s">
-                                        <div class="row g-4">
-                                            <div class="col-4">
-                                                <div class="blog-item-img bg-dark h-100">
-                                                    <a href="#">
-                                                        <img src="img/blog-4.jpg" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="Image">
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="col-8">
-                                                <div class="h-100">
-                                                    <p class="text-body mb-3"><i class="fa fa-calendar-alt me-2"></i> November 26, 2025</p>
-                                                    <a href="#" class="d-inline-block h4 mb-4">Tutorials for Learning Development</a>
-                                                    <div class="py-2 px-3 bg-light d-flex justify-content-between">
-                                                        <p class="mb-0 text-body">By <a href="#" class="h6">Perkel</a></p>
-                                                        <p class="mb-0 text-body">In <a href="#" class="h6">Design</a></p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 wow fadeInUp" data-wow-delay="0.9s">
-                                    <div class="blog-btn d-flex justify-content-center">
-                                        <p class="mb-0 me-2">For More Works Visit</p>
-                                        <a href="#" class="btn d-inline-block p-0">Our Blog</a>
+                                <div class="col-3 col-xl-2">
+                                    <div class="view-img">
+                                        <a href="https://www.brainpointcomputer.com/"
+                                            class="btn btn-primary btn-lg-square" target="_blank"><i
+                                                class="fas fa-plus"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -560,116 +469,380 @@
                 </div>
             </div>
         </div>
-        <!-- Project End -->
+    </div>
+    <!-- Portfolio End -->
 
-        <!-- Contact Start -->
-        <div class="container-fluid" id="pigraContact">
-            <div class="container">
-                <div class="row g-0">
-                    <div class="col-lg-3">
-                        <div class="contact-header h-100 bg-dark pt-6 pe-6 pb-6">
-                            <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
-                                <p class="text-white sub-title">Contact Me</p>
-                                <h1 class="display-6 text-white mb-0">Let’s Start A New Project</h1>
-                            </div>
+    <!-- Project Start -->
+    <!-- <div class="container-fluid" id="projects">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-lg-3">
+                    <div class="project-header h-100 bg-dark pt-6 pe-6 pb-6">
+                        <div class="text-start d-flex flex-column justify-content-center wow fadeInUp"
+                            data-wow-delay="0.1s">
+                            <p class="text-white sub-title">Projects</p>
+                            <h1 class="display-6 text-white mb-0">Recent Projects</h1>
                         </div>
                     </div>
-                    <div class="col-lg-9">
-                       <div class="contact-content h-100 pt-6 ps-6 pb-6">
-                            <div class="bg-light p-4">
-                                <div class="row g-5">
-                                    <div class="col-xl-7 wow fadeInUp" data-wow-delay="0.1s">
-                                        <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a class="text-primary fw-bold" href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
-                                        <div class="d-flex mb-4">
-                                            <div class="btn-xl-square bg-primary text-white me-3 ">
-                                                <i class="fas fa-map-marker-alt fs-4 "></i>
-                                            </div>
-                                            <div>
-                                                <h4>Address</h4>
-                                                <p class="mb-0">Green Enclave Row House, Gujarat Gas Circle, Adajan-395009, Surat, Gujarat, India</p>
-                                            </div>
-                                        </div>
-                                        <div class="d-flex mb-4">
-                                            <div class="btn-xl-square bg-primary text-white me-3">
-                                                <i class="fas fa-envelope"></i>
-                                            </div>
-                                            <div>
-                                                <h4>Mail </h4>
-                                                <p class="mb-0">krishna.desai4@gmail.com</p>
+                </div>
+                <div class="col-lg-9">
+                    <div class="project-content h-100 pt-6 ps-6 pb-6">
+                        <div class="row g-4">
+                            <div class="col-xl-6 ">
+                                <div class="project-item wow fadeInUp" data-wow-delay="0.1s">
+                                    <div class="row g-4">
+                                        <div class="col-8 ">
+                                            <div
+                                                class="project-item-img bg-dark h-100 border border-2 border-bottom-0 border-dark">
+                                                <a href="file:///D:/Red%20and%20White/2.%20Homework/Projects/1.%20HTML/1.%20Interior%20Design/home.html"
+                                                    target="_blank">
+                                                    <img src="img/project-html.png" class="img-fluid w-100 h-100"
+                                                        style="object-fit: cover;" alt="Image">
+                                                </a>
                                             </div>
                                         </div>
-                                        <div class="d-flex">
-                                            <div class="btn-xl-square bg-primary text-white me-3">
-                                                <i class="fa fa-phone-alt"></i>
+                                        <div class="col-8">
+                                            <div
+                                                class="h-100 border border-2 border-dark border-top-0 d-flex align-items-center justify-content-center">
+                                                <a href="file:///D:/Red%20and%20White/2.%20Homework/Projects/1.%20HTML/1.%20Interior%20Design/home.html"
+                                                    class="d-inline-block h4 text-center" target="_blank">
+                                                    Project Using HTML
+                                                </a>
                                             </div>
-                                            <div>
-                                                <h4>Telephone</h4>
-                                                <p class="mb-0">+91 96628 94444</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="project-item wow fadeInUp" data-wow-delay="0.1s">
+                                    <div class="row g-4">
+                                        <div class="col-8">
+                                            <div
+                                                class="project-item-img bg-dark h-100 border border-2 border-bottom-0 border-dark">
+                                                <a href="file:///D:/Red%20and%20White/2.%20Homework/2.%20CSS%20(06-06-23)/13.%20Project-Echolife%20(26-06)/index.html"
+                                                    target="_blank">
+                                                    <img src="img/project-css.png" class="img-fluid w-100 h-100"
+                                                        style="object-fit: cover;" alt="Image">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-8">
+                                            <div
+                                                class="h-100 border border-2 border-dark border-top-0 d-flex align-items-center justify-content-center">
+                                                <a href="file:///D:/Red%20and%20White/2.%20Homework/2.%20CSS%20(06-06-23)/13.%20Project-Echolife%20(26-06)/index.html"
+                                                    class="d-inline-block h4 mb-4 " target="_blank">Project Using
+                                                    CSS</a>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-xl-5 wow fadeInUp" data-wow-delay="0.3s">
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="project-item wow fadeInUp" data-wow-delay="0.1s">
+                                    <div class="row g-4">
+                                        <div class="col-8">
+                                            <div
+                                                class="project-item-img bg-dark h-100 border border-2 border-bottom-0 border-dark">
+                                                <a href="file:///D:/Red%20and%20White/2.%20Homework/3.%20Bootstrap%20(14-07-23)/11.%20Project%20-%20Restaurant/index.html"
+                                                    target="_blank">
+                                                    <img src="img/project-bootstrap.png" class="img-fluid w-100 h-100"
+                                                        style="object-fit: cover;" alt="Image">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-8">
+                                            <div
+                                                class="h-100 border border-2 border-dark border-top-0 d-flex align-items-center justify-content-center">
+                                                <a href="file:///D:/Red%20and%20White/2.%20Homework/3.%20Bootstrap%20(14-07-23)/11.%20Project%20-%20Restaurant/index.html"
+                                                    class="d-inline-block h4 mb-4 " target="_blank">Project Using
+                                                    Bootsrap</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="project-item wow fadeInUp" data-wow-delay="0.1s">
+                                    <div class="row g-4">
+                                        <div class="col-8">
+                                            <div
+                                                class="project-item-img bg-dark h-100 border border-2 border-bottom-0 border-dark">
+                                                <a href="file:///D:/Red%20and%20White/2.%20Homework/Projects/5.%20Javascript/6.%20Book%20Recipe%20(Crud)/index.html"
+                                                    target="_blank">
+                                                    <img src="img/project-javascript.png" class="img-fluid w-100 h-100"
+                                                        style="object-fit: cover;" alt="Image">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-8">
+                                            <div
+                                                class="h-100 border border-2 border-dark border-top-0 d-flex align-items-center justify-content-center">
+                                                <a href="file:///D:/Red%20and%20White/2.%20Homework/Projects/5.%20Javascript/6.%20Book%20Recipe%20(Crud)/index.html"
+                                                    class="d-inline-block h4 mb-4 " target="_blank">Project Using
+                                                    Javascript</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="project-item wow fadeInUp" data-wow-delay="0.1s">
+                                    <div class="row g-4">
+                                        <div class="col-8">
+                                            <div
+                                                class="project-item-img bg-dark h-100 border border-2 border-bottom-0 border-dark">
+                                                <a href="https://project-13-auth.firebaseapp.com/" target="_blank">
+                                                    <img src="img/project-reactjs.png" class="img-fluid w-100 h-100"
+                                                        style="object-fit: cover;" alt="Image">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-8">
+                                            <div
+                                                class="h-100 border border-2 border-dark border-top-0 d-flex align-items-center justify-content-center">
+                                                <a href="https://project-13-auth.firebaseapp.com/"
+                                                    class="d-inline-block h4 mb-4 " target="_blank">Project Using
+                                                    ReactJs</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="project-item wow fadeInUp" data-wow-delay="0.1s">
+                                    <div class="row g-4">
+                                        <div class="col-8">
+                                            <div
+                                                class="project-item-img bg-dark h-100 border border-2 border-bottom-0 border-dark">
+                                                <a href="http://localhost:8000/login" target="_blank">
+                                                    <img src="img/project-nodejs.png" class="img-fluid w-100 h-100"
+                                                        style="object-fit: cover;" alt="Image">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-8">
+                                            <div
+                                                class="h-100 border border-2 border-dark border-top-0 d-flex align-items-center justify-content-center">
+                                                <a href="http://localhost:8000/login" class="d-inline-block h4 mb-4 "
+                                                    target="_blank">Project Using NodeJs</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 wow fadeInUp my-5" data-wow-delay="0.9s">
+                            <div class="project-btn d-flex justify-content-center">
+                                <p class="mb-0 me-2">For More Works Visit</p>
+                                <a href="#" class="btn d-inline-block p-0">My Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <div class="container-fluid" id="projects">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-lg-3">
+                    <div class="project-header h-100 bg-dark p-4">
+                        <div class="text-start d-flex flex-column justify-content-center wow fadeInUp"
+                            data-wow-delay="0.1s">
+                            <p class="text-white sub-title">Projects</p>
+                            <h1 class="display-6 text-white mb-0">Recent Projects</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="project-content h-100 p-4">
+                        <div class="row g-4">
+                            <!-- Project Item -->
+                            <div class="col-6">
+                                <div class="project-item h-100 d-flex flex-column wow fadeInUp" data-wow-delay="0.1s">
+                                    <div
+                                        class="project-item-img bg-dark flex-grow-1 border border-2 border-bottom-0 border-dark">
+                                        <a href="file:///D:/Red%20and%20White/2.%20Homework/Projects/1.%20HTML/1.%20Interior%20Design/home.html"
+                                            target="_blank">
+                                            <img src="img/project-html.png" class="img-fluid w-100 h-100"
+                                                style="object-fit: fit;" alt="Image">
+                                        </a>
+                                    </div>
+                                    <div
+                                        class="border border-2 border-dark border-top-0 d-flex align-items-center justify-content-center">
+                                        <a href="file:///D:/Red%20and%20White/2.%20Homework/Projects/1.%20HTML/1.%20Interior%20Design/home.html"
+                                            class="d-inline-block h4 text-center m-0 p-3" target="_blank">
+                                            Project Using HTML
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="project-item h-100 d-flex flex-column wow fadeInUp" data-wow-delay="0.1s">
+                                    <div
+                                        class="project-item-img bg-dark flex-grow-1 border border-2 border-bottom-0 border-dark">
+                                        <a href="file:///D:/Red%20and%20White/2.%20Homework/2.%20CSS%20(06-06-23)/13.%20Project-Echolife%20(26-06)/index.html"
+                                            target="_blank">
+                                            <img src="img/project-css.png" class="img-fluid w-100 h-100"
+                                                style="object-fit: fit;" alt="Image">
+                                        </a>
+                                    </div>
+                                    <div
+                                        class="border border-2 border-dark border-top-0 d-flex align-items-center justify-content-center">
+                                        <a href="file:///D:/Red%20and%20White/2.%20Homework/2.%20CSS%20(06-06-23)/13.%20Project-Echolife%20(26-06)/index.html"
+                                            class="d-inline-block h4 text-center m-0 p-3" target="_blank">
+                                            Project Using CSS
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="project-item h-100 d-flex flex-column wow fadeInUp" data-wow-delay="0.1s">
+                                    <div
+                                        class="project-item-img bg-dark flex-grow-1 border border-2 border-bottom-0 border-dark">
+                                        <a href="file:///D:/Red%20and%20White/2.%20Homework/3.%20Bootstrap%20(14-07-23)/11.%20Project%20-%20Restaurant/index.html"
+                                            target="_blank">
+                                            <img src="img/project-bootstrap.png" class="img-fluid w-100 h-100"
+                                                style="object-fit: fit;" alt="Image">
+                                        </a>
+                                    </div>
+                                    <div
+                                        class="border border-2 border-dark border-top-0 d-flex align-items-center justify-content-center">
+                                        <a href="file:///D:/Red%20and%20White/2.%20Homework/3.%20Bootstrap%20(14-07-23)/11.%20Project%20-%20Restaurant/index.html"
+                                            class="d-inline-block h4 text-center m-0 p-3" target="_blank">
+                                            Project Using Bootstrap
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Project End -->
+
+    <!-- Contact Start -->
+    <div class="container-fluid" id="contact">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-lg-3">
+                    <div class="contact-header h-100 bg-dark pt-6 pe-6 pb-6">
+                        <div class="text-start d-flex flex-column justify-content-center wow fadeInUp"
+                            data-wow-delay="0.1s">
+                            <p class="text-white sub-title">Contact Me</p>
+                            <h1 class="display-6 text-white mb-0">Let’s Start A New Project</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="contact-content h-100 pt-6 ps-6 pb-6">
+                        <div class="bg-light p-4">
+                            <div class="row g-5">
+                                <div class="col-xl-7 wow fadeInUp" data-wow-delay="0.1s">
+                                    <p class="mb-4">The contact form is currently inactive. Get a functional and working
+                                        contact form with Ajax & PHP in a few minutes. Just copy and paste the files,
+                                        add a little code and you're done. <a class="text-primary fw-bold"
+                                            href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
+                                    <div class="d-flex mb-4">
+                                        <div class="btn-xl-square bg-primary text-white me-3 ">
+                                            <i class="fas fa-map-marker-alt fs-4 "></i>
+                                        </div>
                                         <div>
-                                            <form>
-                                                <div class="row g-3">
-                                                    <div class="col-lg-12 col-xl-6">
-                                                        <div class="form-floating">
-                                                            <input type="text" class="form-control border-0" id="name" placeholder="Your Name">
-                                                            <label for="name">Your Name</label>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-12 col-xl-6">
-                                                        <div class="form-floating">
-                                                            <input type="email" class="form-control border-0" id="email" placeholder="Your Email">
-                                                            <label for="email">Your Email</label>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-12">
-                                                        <div class="form-floating">
-                                                            <input type="text" class="form-control border-0" id="subject" placeholder="Subject">
-                                                            <label for="subject">Subject</label>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-12">
-                                                        <div class="form-floating">
-                                                            <textarea class="form-control border-0" placeholder="Leave a message here" id="message" style="height: 120px"></textarea>
-                                                            <label for="message">Message</label>
-                                                        </div>
-                
-                                                    </div>
-                                                    <div class="col-12">
-                                                        <button class="btn btn-primary w-100 py-3">Send Message</button>
-                                                    </div>
-                                                </div>
-                                            </form>
+                                            <h4>Address</h4>
+                                            <p class="mb-0">Gujarat Gas Circle, Adajan-395009, Surat, Gujarat, India</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex mb-4">
+                                        <div class="btn-xl-square bg-primary text-white me-3">
+                                            <i class="fas fa-envelope"></i>
+                                        </div>
+                                        <div>
+                                            <h4>Mail </h4>
+                                            <p class="mb-0">krishna.desai4@gmail.com</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                        <div class="btn-xl-square bg-primary text-white me-3">
+                                            <i class="fa fa-phone-alt"></i>
+                                        </div>
+                                        <div>
+                                            <h4>Telephone</h4>
+                                            <p class="mb-0">+91 96628 94444</p>
                                         </div>
                                     </div>
                                 </div>
+                                <div class="col-xl-5 wow fadeInUp" data-wow-delay="0.3s">
+                                    <div>
+                                        <form>
+                                            <div class="row g-3">
+                                                <div class="col-lg-12 col-xl-6">
+                                                    <div class="form-floating">
+                                                        <input type="text" class="form-control border-0" id="name"
+                                                            placeholder="Your Name">
+                                                        <label for="name">Your Name</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12 col-xl-6">
+                                                    <div class="form-floating">
+                                                        <input type="email" class="form-control border-0" id="email"
+                                                            placeholder="Your Email">
+                                                        <label for="email">Your Email</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="form-floating">
+                                                        <input type="text" class="form-control border-0" id="subject"
+                                                            placeholder="Subject">
+                                                        <label for="subject">Subject</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="form-floating">
+                                                        <textarea class="form-control border-0"
+                                                            placeholder="Leave a message here" id="message"
+                                                            style="height: 120px"></textarea>
+                                                        <label for="message">Message</label>
+                                                    </div>
+
+                                                </div>
+                                                <div class="col-12">
+                                                    <button class="btn btn-primary w-100 py-3">Send Message</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
                             </div>
-                       </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Contact End -->
+    </div>
+    <!-- Contact End -->
 
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
 
-        
-        <!-- JavaScript Libraries -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/wow/wow.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/waypoints/waypoints.min.js"></script>
-        <script src="lib/counterup/counterup.min.js"></script>
-        <script src="lib/lightbox/js/lightbox.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-        
 
-        <!-- Template Javascript -->
-        <script src="js/main.js"></script>
-    </body>
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
 
 </html>
